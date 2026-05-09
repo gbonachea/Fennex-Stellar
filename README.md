@@ -57,46 +57,14 @@ sudo dnf install cmake ninja-build gcc-c++ qt6-qtbase-devel qt6-qtwebengine-deve
 
 ---
 
-## Compilar e instalar
+## Instalar
 
 ```bash
-# Clonar / extraer el proyecto
-cd flow-browser
+# Debian/Ubuntu: sudo apt install ./fennex-stellar_1.0_all.deb
 
-# Script automático (detecta distro e instala deps si se necesita)
-chmod +x install.sh
-./install.sh
+# 
 
-# O manualmente:
-mkdir build && cd build
-cmake .. -DCMAKE_BUILD_TYPE=Release
-make -j$(nproc)
-./StellarFox
-```
-
----
-
-## Estructura del proyecto
-
-```
-flow-browser/
-├── CMakeLists.txt
-├── install.sh
-├── README.md
-├── resources/
-│   ├── resources.qrc
-│   └── icons/app.png
-└── src/
-    ├── main.cpp              # Punto de entrada, paleta oscura
-    ├── MainWindow.h/cpp      # Ventana principal, gestión de tabs
-    ├── BrowserTab.h/cpp      # Pestaña individual (QWebEngineView + FindBar)
-    ├── TabOverview.h/cpp     # Cuadrícula de pestañas (overlay)
-    ├── TabThumbnail.h/cpp    # Tarjeta individual con miniatura
-    ├── ToolBar.h/cpp         # Barra inferior (barra de nav + dirección)
-    ├── AddressBar.h/cpp      # Campo de URL inteligente
-    ├── DownloadManager.h/cpp # Gestión de descargas
-    ├── BookmarkManager.h/cpp # Marcadores + Historial
-    └── SettingsDialog.h/cpp  # Configuración
+# 
 ```
 
 ---
