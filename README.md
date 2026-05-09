@@ -5,6 +5,8 @@ inspirada en los navegadores móviles: las pestañas se gestionan desde un
 **botón de pestañas** en la barra inferior que muestra una cuadrícula visual
 de miniaturas, igual que Chrome/Firefox en Android/iOS.
 
+<img width="1366" height="732" alt="fennex-stellar" src="https://github.com/user-attachments/assets/89c8783a-30b2-498a-bcf7-4d1c0af964f0" />
+
 ---
 
 ## Características
